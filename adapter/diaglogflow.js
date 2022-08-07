@@ -56,7 +56,7 @@ const detectIntent = async (queryText) => {
         const { fields } = parsePayload.payload
         media = fields.media.stringValue || null
     }
-    const customPayload = parsePayload['payload']
+    //const customPayload = parsePayload['payload']
 
     const parseData = {
         replyMessage: queryResult.fulfillmentText,
